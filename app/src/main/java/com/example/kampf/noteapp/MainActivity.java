@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     FloatingActionButton fab;
     CollapsingToolbarLayout collapsingToolbarLayout;
-    TextView tvFaq;
 
     NotesAdapter notesAdapter;
     List<Note> notes = new ArrayList<>();
@@ -60,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void setRecyclerView() {
         recyclerView = findViewById(R.id.rvNotes);
-        tvFaq = findViewById(R.id.tvFaq);
 
         StaggeredGridLayoutManager gridLayoutManager =
                 new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
