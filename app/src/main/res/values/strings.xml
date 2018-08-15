@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="notes">Notes</string>
+    <string name="new_note">Add new note</string>
+    <string name="settings">Settings</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="no_notes_added">No notes added</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="cancel">CANCEL</string>
+</resources>
